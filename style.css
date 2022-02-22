@@ -104,6 +104,10 @@ main {
   color: var(--color-main-text);
 }
 
+.advice-divider {
+  margin-top: clamp(0rem, calc(100vw - 375px), 1rem);
+}
+
 .advice-button {
   margin-top: clamp(0.5rem, 2vw, 1rem);
   position: relative;
