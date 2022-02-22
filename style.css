@@ -97,10 +97,10 @@ main {
 .advice-text {
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: clamp(24px, 3vw, 28px);
+  line-height: clamp(33px, 3vw, 38.25px);
   text-align: center;
-  letter-spacing: -0.257143px;
+  letter-spacing: clamp(0.3px, -1vw, -0.257143px);
   color: var(--color-main-text);
 }
 
